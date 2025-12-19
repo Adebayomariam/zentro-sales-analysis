@@ -1,6 +1,7 @@
 # Zentro Sales Performance Report (2020–2025)
 Analyzing 5 years of transaction data to optimize retail operations and reduce return rates using Power BI.
 
+## Dashboard
 ![dashboard](dashboard-image.png) 
 
  ## Executive Summary
@@ -28,4 +29,30 @@ Using Power Query, the raw data was transformed to ensure accuracy:
 - Corrected Product Category naming conventions and standardized Payment Method (e.g., renamed paypall to PayPal).
 - Created a new SalesAmount calculated column.
 
-![dataset](excel-dataset-image.png)
+## Data preview
+![dataset](Excel-dataset-image.png)
+
+## Analysis & Insights
+This section breaks down the data into actionable stories.
+
+### Sales Growth & KPI Trends
+- Total sales exceeded $63M during the review period, with an average of **$11M** annually.
+- Sales showed a slight decline of 0.92% in 2022 compared to 2021, but recovered in subsequent years.
+- A significant finding was the return rate spike in 2023 (+7.8%). 
+
+### Product Category Performance
+Electronics & gadgets is the dominant category, totalling $3M in 2025 and exceeding the next closest category (Home & Kitchen Appliance) by $2M.
+
+### Customer Behavior & Demographics
+Customer preference is split almost perfectly in thirds: Credit Card (33%), Bank Transfer (33%), and PayPal (34%). This indicates a need to maintain robust support for all three gateways.
+The United Kingdom is the highest contributor to sales, generating approximately $1.3M in total revenue. All other countries contribute similar amounts, with total sales ranging between $575,000 and $700,000.
+
+## Recommendations
+Based on the data analysis, I recommend the following actions for Zentro:
+- The policies introduced in 2024 have successfully curbed the return rate spike observed in 2023 and should be standardized across all regions.
+- Lessons should be drawn from the strong performance of the Electronics and Gadgets categories, as their success can be replicated across other product categories.
+- Given that the United Kingdom contributes a significantly higher share of total sales, marketing efforts should be increased to strengthen and maintain market dominance in the country.
+- Additionally, strategies driving sales success in the UK should be adapted and applied across other operating countries to ensure more balanced sales performance globally.
+
+## Links
+[interactive power bi dashboard](https://app.powerbi.com/view?r=eyJrIjoiMmViZThjZGYtZTc1Yi00OTU2LWIzNzAtODM0YjE2MjFiOTNlIiwidCI6IjM0NmYzNTNlLThhZjUtNGY5OS1hNDU2LTY0MDQ4ZDg2MDE0OSJ9)
