@@ -28,4 +28,4 @@ Using Power Query, the raw data was transformed to ensure accuracy:
 - Corrected Product Category naming conventions and standardized Payment Method (e.g., renamed paypall to PayPal).
 - Created a new SalesAmount calculated column.
 
-![dataset](excel-dataset image.png)
+![dataset](excel-dataset-image.png)
